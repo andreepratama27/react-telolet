@@ -1,4 +1,38 @@
-body {
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
-    background-color: red;
+body {
+    background-color: cornflowerblue;
+}
+
+.col-md-6 {
+    .btnPlaces {
+        display: table;
+        height: 90vh;
+        width: 100%;
+
+        .itsButton {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+
+            h2 {
+                margin-bottom: 4rem;
+                font-weight: bold;
+                font-family: 'ubuntu', verdana;
+            }
+
+            .btn {
+                border: 0;
+                background-color: #f44336;
+                height: 15rem;
+                width: 15rem;
+                border-radius: 100%;
+                box-shadow: 10px 8px 1px rgba(0, 0, 0, 0.8);
+
+                &:active {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
 }

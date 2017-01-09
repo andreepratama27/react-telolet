@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --watch",
-    "start": "npm run dev & http-server"
+	"start": "webpack-dev-server --hot"
   },
   "keywords": [],
   "author": "",

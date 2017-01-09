@@ -1,4 +1,5 @@
 import telolet from '../sound/telolet.ogg'
+import './../scss/style.scss'
 
 class App extends React.Component {
     constructor () {
@@ -13,7 +14,12 @@ class App extends React.Component {
 
     render () {
         return (
-            <button onClick={this.playSound}></button>
+            <div className='btnPlaces'>
+                <div className='itsButton'>
+                    <h2>Pencet Tombol</h2>
+                    <button className='btn btn-default' onClick={this.playSound}></button>
+                </div>
+            </div>
         )
     }
 }
