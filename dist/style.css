@@ -22,4 +22,5 @@
       border-radius: 100%;
       box-shadow: 10px 8px 1px rgba(0, 0, 0, 0.8); }
       .col-md-6 .btnPlaces .itsButton .btn:active {
+        outline: none !important;
         box-shadow: none; }
