@@ -29,9 +29,9 @@ body {
                 width: 15rem;
                 border-radius: 100%;
                 box-shadow: 10px 8px 1px rgba(0, 0, 0, 0.8);
+				outline: none !important;
 
                 &:active {
-					outline: none !important;
                     box-shadow: none;
                 }
             }
