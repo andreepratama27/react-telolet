@@ -79,7 +79,7 @@
 	    return Main;
 	}(React.Component);
 
-	ReactDOM.render(React.createElement(Main, null), document.getElementById('container'));
+	ReactDOM.render(React.createElement(Main, null), document.getElementById('apps'));
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(32)))
 
 /***/ },
@@ -21542,7 +21542,20 @@
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	            return React.createElement('button', { onClick: this.playSound });
+	            return React.createElement(
+	                'div',
+	                { className: 'btnPlaces' },
+	                React.createElement(
+	                    'div',
+	                    { className: 'itsButton' },
+	                    React.createElement(
+	                        'h2',
+	                        null,
+	                        'Pencet Tombol'
+	                    ),
+	                    React.createElement('button', { className: 'btn btn-default', onClick: this.playSound })
+	                )
+	            );
 	        }
 	    }]);
 
